@@ -1,0 +1,147 @@
+SELECTORES
+ESTOS representan una estructura
+
+selector{
+propiedad:valor,
+}
+nos ayuda a referirnos a un ID CLASE ELEMENTO
+
+TIPOS DE SELECTORES
+UNIVERSAL aplica a todo el documento css *
+SELECTOR TIPO Aplica a los elementos que nosotros elijamos
+SELEC ID id='noticia' EN CSS #noticia
+SELECT CLASE clase='mi1clase' EN CSS .mi1clase
+
+PSEUDOCLASES :pseudoclase
+link visited
+hover puede cambiar de color cuando mouse este encima
+active cambia color cuando presiono
+focus no permite cambiar el elemento mientras este en el focus por eje formulario
+
+::PSEUDOELEMENTOS
+PERMITEN acceder a inf del doc que no es accesible de otra manera
+BEFORE
+AFTER
+FIRST-LETTER pone la primer letra en grande
+FIRST-LINE podes cambiar la primer linea de un p
+
+COMBINACION DE SELECTORES
+ASCENDENTES E HIJOS
+https://codepen.io/pichicristian/pen/RdqJjR?editors=1100
+
+COLORES
+SEGB Standard red, green, and blue 256 X256X256=16777216
+Maneras de representar color
+
+keywords ej.. pink orange yellow etc
+
+Notacion hexadecimal ##00FF00  00ROJO FFVERDE  00AZUL
+Estos pares se conviertes en una conversion de 0 a 255
+rgb usa tres canales rojo, verde y azul  y rgba usa un canal mas llmada alfa entre 0 y 1 donde cero no
+tiene opacidad y 1 es totalmente opaco EJEMPLO rgba(0,0,255,.4)
+
+HSL Y HSLa hue o matiz, saturation%, lightness% o brillo
+
+LONGITUDES
+Absolutas cm, mm, pulgada 2,54cm, px,punto,pica
+
+RELATIVAS
+No estan completamente definidas
+su valor siempre esta referenciado respecto a otro valor
+https://devcode.la/cursos/html-css/#clases/css/longitudes
+
+
+PROPIEDAD DISPLAY
+Todo elemento por defecto tiene display
+el <div tiene por def block, por eso ocupa todo el ancho
+este es usado para grandes piesas de contenido header, body, footer
+
+INLINE-BLOCK o INLINE:USADA PARA PEQUEÑAS PIESAS DE CONTENIDO este lo pone uno al lado del otro pero sin w,h solo recuadra la palabra
+
+NONE:los quita por completo
+
+
+PADDING agrandas el div o caja/ es del borde de la etiqueta hacia dentro
+MARGGIN Genera un espacio entre los div/ es del borde de la etiqueta hacia fuera
+
+
+POSITION controla el posicionamiento dentro de un pag web
+valores
+static este valo es del por defecto y no tiene posicionamiento
+relative podes acceder a otros elementos como right, keft, top y button y mover el div
+absolute este se va a ir posicionando de acuerdo a su caja padre o al padre mas cercano que puede ser el navegador
+position: fixed
+Los elementos a los cuales se les posiciona con position: fixed también están fuera del flujo normal de la página. 
+Sin embargo, no se debe de confundir con los elementos que están posicionados con position: absolute.
+
+A diferencia de estos últimos, los elementos con position: fixed toman como referencia la ventana del navegador y no respetan el tener un contenedor padre que esté posicionado. Además, al hacer scroll en la página, el elemento que esté posicionado como position: fixed seguirá en la misma posición respecto a la ventana del navegador aunque
+ el scroll haya desplazado la página hacia abajo.
+
+float https://devcode.la/cursos/html-css/#clases/posicionamiento/float
+
+				tipografia
+font-size da tamaño a las p
+font-family tipo de letras
+font-weight grosos de las letras, acepta intervalos de 100 en 100 hasta 900
+line-height se usa para separar las lineas de texto 
+font podes instanciar los demas elementos en un solo 
+				lista
+lista desordenada ul li
+listas ordenadas ol li 
+listas descriptivas sirven para colocar terminos con sus respectivas descripciones dd para agrupar dt para c termino dd para definicion
+listas anidadas ul li ol li
+sebasivana4455
+list-style-type para poner un  estilo de viñeta a una lista 
+list-style-position va a posicionar a las viñetas inside outside
+
+							
+								background 
+background-image url....
+backround repeat este podemos jugar u poco con las imagenes atraves de sus valores.
+backround-attachment tenemos varias imagenes vertical con un texto repetido si ponemos FIXED lo que va hacer es moverse el texto 
+pero no la imagen
+back..-position posiciona a la imagen con distinto valores left button etc y tambien con px y porc de X e Y
+
+			MEDIA
+img para las imagenes
+
+audio controls apareceran todos los controles para rep el audio
+
+video source src....type=video-mp4 source si el video es muy grande no se vera 
+se tendra que poner width y height
+con el atributo controls podremos reproducirlo, poster para mostrar img antes de empezar a reproducir
+
+iframe sirve para poner otra pag externa a la tuya.
+
+				FORMULARIO
+form etiqueta para crear formulario
+dentro de formu tenemos action que es donde vamos a envar la inf obtenida en el form
+tambien method que es para saber que tipo de metodo, puede ser post o get
+
+label para darle nombre a nuestro input
+input type para que el usuario pueda escribir 
+fieldset elemento contenedor hace un marco para agrupar 
+legend rotula el fieldet
+<input type="submit" value="login"> para boton
+placeholder escribe dentro del input en clarito
+
+TEXTAREA es una caja de texto
+SELECT son listas desplegables
+
+para no ovidar
+
+TABLA
+Table
+  tr FILAS
+   td COLUMNAS
+  tr
+
+THEAD Permite encabezado para tablas
+<thead>
+  <tr>
+   <th>nombres<th>
+  <tr>
+
+tfoot para abajo de la tabla
+caption permite asignar un titulo a la tabla
+https://devcode.la/cursos/html-css/#clases/tablas/atributos-scope-colspan-rowspan-y-header

@@ -1,0 +1,49 @@
+body {
+font-family: Arial;
+background-color: mediumseagreen;
+}
+/**/
+fieldset {/*esto e hace xq el hancho del fieldset al ser block ocupa todo el navegador*/
+	width: 280px;
+
+	margin: 0 auto;/*hacemos un centrado*/
+	background-color: white; 
+	border:none;
+	padding:0 0 10px 0;
+}
+form {
+background-color: white; 
+width: 280px;
+padding: 40px 10px 0 10px;
+margin: 0 auto;
+border-radius: 4px;
+}
+input{
+	display: block;
+	border:none;
+	margin:  20px auto;
+	padding: 20px 0;
+	text-align: center;
+	width: 280px;
+	border-radius: 4px;
+	background-color:#eaeaea; 
+	font-size: 18px;
+
+}
+legend{
+
+	text-align: center;
+	width: 100%;
+	
+	font-size: 30px;
+	font-weight: bold;
+	color: #777;
+	
+}
+input[type="submit" ]{
+background-color: mediumseagreen;
+color: white;
+cursor: pointer;
+
+}
+

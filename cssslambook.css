@@ -1,0 +1,14 @@
+#preguntas fieldset{
+	margin: 0px;
+	padding:0px;
+	border:0px; 
+}
+#preguntas legend{
+
+	padding:0px;
+}
+#preguntas ul{
+	list-style:none;
+	margin: 0px;
+	padding:0px;
+}

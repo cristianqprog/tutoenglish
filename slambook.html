@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slambook</title>
+	<link rel="stylesheet" type="text/css" href="cssslambook.css">
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<body>
+<h1>Slam book</h1>
+<form action="enviar.php" method="post">
+	<section id="preguntas">
+	  <p>
+	  	<label for="name">Nombre y Apellido</label>
+		<input type="text" name="nombre" id="name">
+	  </p>
+	  <p>
+        <label for="birth">Fecha de Nacimiento</label> 
+        <input type="date" name="cumple" id="birth">
+	  </p>
+	  <fieldset>
+	  	<legend>Sexo</legend>
+	  		<ul>
+	  			<li>
+	  				<label>
+	  					<input type="radio" name="sexo" value="hombre">Hombre
+	  				</label>
+	  			</li>
+	  		</ul>
+	  		<ul>
+	  			<li>
+	  				<label>
+	  					<input type="radio" name="sexo" value="mujer">mujer
+	  				</label>
+	  			</li>
+	  		</ul>
+	  		<p>
+		  		<ul>
+		  			<li>
+		  				<label for="photo">subir foto</label>
+		  					<input type="file" name="foto" id="photo">
+		  				
+		  			</li>
+		  		</ul>
+	  		</p>
+	  		<p>
+		  		<ul>
+		  			<li>
+		  				<label for="colour">color favorito</label>
+		  					<input type="color" name="colo" id="colour">
+		  				
+		  			</li>
+		  		</ul>
+	  		</p>
+	  		<p>
+		  		<ul>
+		  			<li>
+		  				<label for="numero">Número de Télefono</label>
+		  					<input type="number" name="num" id="numero">
+		  				
+		  			</li>
+		  		</ul>
+	  		</p>
+	  		<p>
+		  		<ul>
+		  			<li>
+		  				<label for="hour">Hora de despierto</label>
+		  					<input type="time" name="hs" id="hour">
+		  				
+		  			</li>
+		  		</ul>
+	  		</p>
+	  		<p>
+		  		<ul>
+		  			<li>
+		  				<label for="number">Número favorito</label>
+		  					<input type="number" name="numero" id="number">
+		  				
+		  			</li>
+		  		</ul>
+	  		</p>
+	  		<p>
+		  		<ul>
+		  			<li>
+		  				<label for="mydatetimelocal">Fecha y hora más importante</label>
+		  					<input type="datetime-local" name="fechaydato" id="mydatetimelocal">
+		  				
+		  			</li>
+		  		</ul>
+	  		</p>
+	  		
+	  </fieldset>
+	</section>
+</form>
+	
+</body>
+</html>
